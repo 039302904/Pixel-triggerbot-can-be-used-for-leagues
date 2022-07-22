@@ -40,7 +40,7 @@ namespace TROBIVAXGIA
         {
             while (true)
             {
-                if (GetAsyncKeyState(Keys.XButton2) < 0) // choose whatever key you want
+                if (GetAsyncKeyState(Keys.XButton2) < 0) // choose your key :)
                 {
                     Thread.Sleep(10);
                     oldCol = GetPixel(xy);
